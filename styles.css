@@ -135,7 +135,8 @@ header ul li a.icon {
 /* second container */
 #secondcontainer {
   background-color: #8fd3ee;
-  min-height: 100vh;
+  min-height: auto;
+  padding-bottom: 100px;
 }
 .row {
   text-align: center;
@@ -164,6 +165,7 @@ header ul li a.icon {
   margin: auto;
   font-family: 'Sofia Sans', sans-serif;
   font-weight: 500;
+  line-break: auto;
  }
 
  .adiv{
@@ -191,18 +193,14 @@ header ul li a.icon {
     font-size: 4.167vw;
   }
 
-  /* .imgBox-2 {
-      width:  100%;
-      display: flex;
-      justify-content: flex-start;
-   }
-   */
+  
 
 /* ++++++++++++++++++++++++++++++ */
 
 /* third container */
 #thirdcontainer {
   flex-direction: column;
+  
   }
 
 .content-3 h1 {
@@ -227,6 +225,8 @@ header ul li a.icon {
   font-family: 'Sofia Sans', sans-serif;
   font-weight: 400;
   font-size: 1.4vw;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .hr-pro {
   width: 5%;
@@ -362,16 +362,19 @@ font-weight: 500;
 /* #secondcontainer {
   font-size: 2.5vw;
 }
-#thirdcontainer {
-  font-size: 2.5vw;
-}
-#fourthcontainer {
+
+/* #fourthcontainer {
   font-size: 2.5vw;
 }
 #fifthcontainer{
   font-size: 2.5vw;
-} */
-
+} */ 
+#thirdcontainer {
+ padding-left: 100px;
+ padding-right: 100px;
+ padding-bottom:60px;
+ padding-top: 60px;
+} 
 
 header ul {
   display: none;
@@ -390,10 +393,10 @@ header ul {
  }
   .toggle.active {
       position: fixed;
-     
+     right: 38px;
       background: url(images/xmark-solid.svg);
   background-position: center;
-  background-size: 30px;
+  background-size: 28px;
   background-repeat:no-repeat;
 }
 header ul.navigation.active{
@@ -408,13 +411,14 @@ align-items: center;
 flex-direction: column;
 background: #fff;
 z-index: 8;
+padding-left: 0%;
 
 }
+
 header ul li a{
-  font-size: 1.5em;
+  font-size: 1.9em;
   margin: 5px 0;
 }
-
 
 header {
   position: absolute;
@@ -459,9 +463,13 @@ header {
 }
 
 #secondcontainer{
-  min-height: 50vh;
-  padding-bottom: 40px;
+  min-height: auto;
+  padding-bottom: 50px;
   width: 100%;
+}
+.row{
+ 
+  padding-top: 50px;
 }
 .about-p{
   margin-left: auto;
@@ -520,7 +528,12 @@ width: 100%;
   font-size: 15px;
 }
 #thirdcontainer {
-  padding: 50px;
+  padding-left: 50px;
+ padding-right: 50px;
+ padding-bottom:30px;
+ padding-top: 30px;
+
+  
 }
 .content-3 h2{
   font-size: 14px;
@@ -528,6 +541,14 @@ width: 100%;
 .content-3 p {
   font-size: 11px;
   width: auto;
+}
+.hr-pro{
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 5px;
+
 }
 
 .fourthcon-h2 {
